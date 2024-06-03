@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./gender-reveal-party-background_708558-361.avif');
+    background-size: cover;
+}
+
+.wrapper-container {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 50px auto;
+}
+
+.wrapper {
+    width: 420px;
+    float: left;
+}
+
+.wrapper-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    text-align: center;
+}
+
+.wrapper-item {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.45);
+    backdrop-filter: blur(10px);
+    padding: 5px;
+    border-radius: 10px;
+    width: 120px;
+    height: 125px;
+}
+
+.wrapper-item h1 {
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.wrapper-item span {
+    font-size: 24px;
+}
+
+.wrapper-title {
+    text-align: center;
+    background-color: rgba(23, 49, 179, 0.45);
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+    margin: 20px;
+}
